@@ -26,12 +26,6 @@ Note: This repository includes the [postman collection for the finished API](pos
 * TypeScript
 * Express.js & Express.js middleware
 
-## Video structure
-1. What are we going to build
-2. Bootstrap application
-4. Build out registration
-5. Build out post CRUD operations
-
 ![](./diagram.png)
 
 ## Let's keep in touch
