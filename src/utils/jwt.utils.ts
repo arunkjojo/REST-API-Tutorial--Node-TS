@@ -15,7 +15,7 @@ export function decode(token: string) {
   } catch (error:any) {
     return {
       valid: false,
-      expired: error?.message === "jwt expired",
+      expired: error.message === "jwt expired",
       decoded: null,
     };
   }

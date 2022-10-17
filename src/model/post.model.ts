@@ -13,10 +13,10 @@ export interface PostDocument extends mongoose.Document {
 const PostSchema = new mongoose.Schema(
     {
         postId: {
-        type: String,
-        required: true,
-        unique: true,
-        default: () => nanoid(10),
+            type: String,
+            required: true,
+            unique: true,
+            default: () => nanoid(10),
         },
         user: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
         title: { type: String, default: true },
